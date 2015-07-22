@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'message#index'
+  root 'messages#index'
   resources :messages , only: [:create]
 
   # The priority is based upon order of creation: first created -> highest priority.
